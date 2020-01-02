@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="./assets/images/favicon-32x32.png" rel="Shortcut Icon">
+<link href="https://fonts.googleapis.com/css?family=Bangers%7CMontserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+<title>TAO - Web oficial - Contacto</title>
+</head>
+<body class="font-body">
+<nav class="flex bg-black border-b-4 border-green-lighter">
+<a class="flex-1 text-white p-2" href="./index.html">TAO</a>
+<div class="flex-1">
+<ul class="flex float-right p-2">
+  <li class="nav-item active">
+    <a class="text-green-lighter p-2 hover:text-gray-lighter" href="./index.html">Biografia</a>
+  </li>
+  <li>
+    <a class="text-white p-2" href="./contact.html">Contacto</a>
+  </li>
+</ul>
+</div>
+</nav>  
+
+<div class="mx-4 max-w-6xl md:mx-auto min-h-full">
+  <!-- Content here -->
+  <nav aria-label="breadcrumb">
+    <ol class="flex mt-6 mb-6">
+      <li class="p-2 pl-0"><a class="link" href="./index.html">Home</a></li>
+      <li class="py-2 text-gray-lighter">/</li>
+      <li class="p-2 text-gray-lighter">Contacto</li>
+    </ol>
+  </nav>
+  <h1 class="display">Contacto</h1>
+  <form class="formulario-contacto" method="post" data-netlify="true"> 
+        <fieldset>
+          <legend class="text-2xl mb-3">Datos personales</legend>
+            <div class="md:flex md:mb-3">
+              <div class="w-full md:w-1/2 mb-6 md:mb-0 md:pr-3">
+                <input type="text" class="input" placeholder="Nombre" name="nombre" required>
+              </div>
+              <div class="w-full md:w-1/2 mb-6 md:mb-0">
+                <input type="text" class="input" placeholder="Apellidos" name="apellidos" required>
+              </div>
+            </div>
+            <div class="md:flex md:mb-3">
+              <div class="w-full md:w-1/2 mb-6 md:mb-0 md:pr-3">
+                <input type="email" class="input" placeholder="Correo electrónico" name="email" required>
+              </div>
+              <div class="w-full md:w-1/2 mb-6 md:mb-0">
+                <input type="tel" class="input" placeholder="Teléfono" name="telefono" pattern="[0-9]{9,}" required>
+              </div>
+            </div>
+        </fieldset>
+        <fieldset>
+          <legend class="text-2xl mb-3">Pregúntanos!</legend>
+            <div class="form-group">
+              <textarea class="input" name="pregunta" placeholder="Escribe tu duda" rows="3"></textarea>
+            </div>
+        </fieldset>
+        
+          <label class="block text-gray-dark mb-2 text-xl" for="rss">
+            <input class="" type="checkbox" value="" name="rss" id="rss">
+            <span>
+              suscribirme a la newsletter
+            </span> 
+          </label>
+      
+        
+          <label class="block text-gray-dark mb-2 text-xl" for="pdd">
+            <input class="" type="checkbox" value="" name="pdd" id="pdd" required>
+            <span>
+              Acepto la política de protección de datos
+            </span> 
+          </label>
+       
+         <input class="font-display text-3xl bg-black text-white px-4 py-2 border-2 border-green-lighter mb-3 hover:bg-green-lighter hover:border-black hover:text-black" type="submit" value="Envía" />
+      </form> 
+</div>
+<footer>
+  <nav class="table w-full text-right bg-black border-t-4 border-green-lighter">
+        <ul class="flex float-right">
+            <li>
+                <a class="awesome" href="https://www.facebook.com/pg/TaoPerfilOficial" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                  <a  class="awesome" href="https://twitter.com/TAOoficial">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+              </li>
+              <li>
+                  <a  class="awesome" href="https://www.instagram.com/taooficial/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+              </li>
+              <li>
+                  <a  class="awesome" href="https://www.youtube.com/user/TaoPaiPaiRock" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+              </li>
+              <li>
+                <a  class="awesome" href="https://open.spotify.com/artist/7mO1F7qnR2P4B21JvUL0Gp" target="_blank">
+                  <i class="fab fa-spotify"></i>
+                </a>
+            </li>                  
+        </ul>
+    </nav>  
+</footer>
+      <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+    </body>
+  </html>
+  
