@@ -28,7 +28,8 @@
 
 /* @apply columns */
 
-.w-412, .w-812 {
+.w-412,
+.w-812 {
   @apply w-full py-2;
 }
 
@@ -36,6 +37,7 @@
   .w-412 {
     @apply w-4/12 py-0;
   }
+
   .w-812 {
     @apply w-8/12 py-0;
   }
@@ -44,9 +46,9 @@
 /* @apply social media */
 
 .awesome {
-  @apply text-green-lighter text-2xl px-2
+  @apply text-green-lighter text-2xl px-2;
 }
 
 .awesome:hover {
-  @apply text-white
+  @apply text-white;
 }
